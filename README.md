@@ -48,7 +48,7 @@ NotesQR is built with security and privacy as the foundation:
 3. Set up 2FA with your preferred authenticator app
 4. Save your secure container URL
 5. Start creating encrypted notes!
-<p align="center">![Screenshot 4](images/GpGLGmGXMAAGbLM.png)</p>
+<p align="center"><img src="images/GpGLGmGXMAAGbLM.png"/></p>
 
 ## 💡 Use Cases
 
@@ -68,7 +68,7 @@ NotesQR is built with security and privacy as the foundation:
 - **2FA**: TOTP (RFC 6238) compatible with standard authenticator apps
 - **Storage**: Data is encrypted at rest and in transit
 - **Authentication**: Zero-knowledge proof verification
-<p align="center">![Screenshot 5](images/GpGLLICXQAAKgFc.png)</p>
+<p align="center"><img src="images/GpGLLICXQAAKgFc.png"/></p>
 
 ### Architecture
 
@@ -105,7 +105,7 @@ We welcome Feedback! See our [Contributing Guidelines](CONTRIBUTING.md) for deta
 - [Report Issues](info@notesqr.com)
 - [Feature Requests](info@notesqr.com)
 - Need help? Contact us at info@notesqr.com
-<p align="center">![Screenshot 6](images/GpGLYbPWYAE5Rnv.png)</p>
+<p align="center"><img src="images/GpGLYbPWYAE5Rnv.png"/></p>
 
 ---
 
