@@ -1,5 +1,5 @@
-# NotesQR - End-to-End Encrypted Notes
-
+<p align="center"># NotesQR - End-to-End Encrypted Notes</p>
+![Screenshot 1](images/en.png)
 ## About NotesQR
 
 NotesQR represents a paradigm shift in secure note-taking and personal data management. In an era where digital privacy is increasingly compromised, NotesQR emerges as a fortress for your sensitive information, offering unparalleled security without sacrificing usability. Our platform is built on the fundamental belief that privacy is a basic human right, not a premium feature.
@@ -24,6 +24,7 @@ Whether you're a journalist protecting sensitive sources, a healthcare professio
 - **Custom URLs**: Create memorable aliases for easy access
 - **Cross-Platform**: Works on all devices with a modern web browser
 - **Dark Mode**: Easy on the eyes with automatic theme switching
+![Screenshot 2](images/Go7M7rrXIAAL8UF.png)
 
 ## 🔐 **Secure, Private, Anonymous Note-Taking**
 
@@ -35,6 +36,7 @@ NotesQR is built with security and privacy as the foundation:
 - **Open Source**: Transparent security, verifiable by anyone
 - **2FA Protection**: Two-factor authentication required for access
 - **Self-Destructing Notes**: Optional auto-delete feature for sensitive information
+![Screenshot 3](images/GpGLOt6WcAAhTco.png)
 
 ## 🚀 Getting Started
 
@@ -43,6 +45,7 @@ NotesQR is built with security and privacy as the foundation:
 3. Set up 2FA with your preferred authenticator app
 4. Save your secure container URL
 5. Start creating encrypted notes!
+![Screenshot 4](images/GpGLGmGXMAAGbLM.png)
 
 ## 💡 Use Cases
 
@@ -62,6 +65,7 @@ NotesQR is built with security and privacy as the foundation:
 - **2FA**: TOTP (RFC 6238) compatible with standard authenticator apps
 - **Storage**: Data is encrypted at rest and in transit
 - **Authentication**: Zero-knowledge proof verification
+![Screenshot 5](images/GpGLLICXQAAKgFc.png)
 
 ### Architecture
 
@@ -74,31 +78,18 @@ NotesQR is built with security and privacy as the foundation:
 ## 🌐 Supported Languages
 
 - English
-- Spanish (Español)
-- Italian (Italiano)
-- Portuguese (Português)
+- Spanish
+- Italian
+- Portuguese
+- French
 
-## 🤝 Contributing
+## 🤝 Feedback
 
-We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome Feedback! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ## 🔗 Links
 
 - [Website](https://notesqr.com)
-- [Documentation](https://docs.notesqr.com)
-- [Report Issues](https://github.com/yourusername/notesqr/issues)
-- [Feature Requests](https://github.com/yourusername/notesqr/issues/new)
-
-## 📊 Statistics
-
-- 2,000+ Anonymous Containers
-- 7,000+ Saved Notes
-- 99.9% Uptime
-- Global CDN Coverage
 
 ## 🏆 Recognition
 
@@ -108,11 +99,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Support
 
-Need help? Contact us at info@notesqr.com
+- [Report Issues](info@notesqr.com)
+- [Feature Requests](info@notesqr.com)
+- Need help? Contact us at info@notesqr.com
+![Screenshot 6](images/GpGLYbPWYAE5Rnv.png)
 
 ---
 
 <div align="center">
   <p>Built with ❤️ for privacy</p>
-  <p>© 2024 NotesQR. All rights reserved.</p>
+  <p>© 2025 NotesQR. All rights reserved.</p>
 </div>
