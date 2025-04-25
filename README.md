@@ -14,7 +14,7 @@ What truly sets NotesQR apart is its innovative approach to authentication and a
 
 The platform is designed to be intuitive and powerful, offering features like hierarchical folder organization, custom tagging systems, and the ability to star important notes. For added convenience, users can create custom aliases for their containers, making them easier to access while maintaining security. The interface adapts seamlessly between light and dark modes, ensuring comfortable usage in any environment.
 
-Our commitment to privacy extends beyond just encryption. NotesQR operates with complete transparency, with our codebase being open source and available for public audit. We implement zero tracking, zero analytics, and zero cookies – your usage of the platform is completely private. For organizations requiring compliance with regulations like HIPAA, GDPR, or other privacy standards, NotesQR's architecture inherently satisfies these requirements through its zero-knowledge design.
+Our commitment to privacy extends beyond just encryption. NotesQR operates with complete transparency, allowing the user to see how your notes and data is stored in database. We implement zero tracking, zero analytics, and zero cookies – your usage of the platform is completely private. For organizations requiring compliance with regulations like HIPAA, GDPR, or other privacy standards, NotesQR's architecture inherently satisfies these requirements through its zero-knowledge design.
 
 Whether you're a journalist protecting sensitive sources, a healthcare professional managing patient notes, a business safeguarding trade secrets, or simply an individual wanting to keep their personal thoughts private, NotesQR provides the perfect balance of security, privacy, and usability. With over 2,000 anonymous containers and 7,000+ saved notes, our platform has proven itself as a trusted solution for secure information management.
 
@@ -38,7 +38,6 @@ NotesQR is built with security and privacy as the foundation:
 - **End-to-End Encryption**: Your notes are encrypted before leaving your device
 - **Zero-Knowledge Architecture**: We never see your unencrypted data
 - **No Tracking**: No analytics, no cookies, no tracking scripts
-- **Open Source**: Transparent security, verifiable by anyone
 - **2FA Protection**: Two-factor authentication required for access
 - **Self-Destructing Notes**: Optional auto-delete feature for sensitive information
 <p align="center"><img src="images/GpGLOt6WcAAhTco.png"/></p>
