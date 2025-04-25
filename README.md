@@ -2,6 +2,8 @@
 
 <p align="center"><img src="images/en.png" width="500"/></p>
 
+Visit [NotesQR.com](https://notesqr.com)
+
 ## About NotesQR
 
 NotesQR represents a paradigm shift in secure note-taking and personal data management. In an era where digital privacy is increasingly compromised, NotesQR emerges as a fortress for your sensitive information, offering unparalleled security without sacrificing usability. Our platform is built on the fundamental belief that privacy is a basic human right, not a premium feature.
