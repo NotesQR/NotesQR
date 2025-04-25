@@ -103,8 +103,6 @@ We welcome Feedback! See our [Contributing Guidelines](CONTRIBUTING.md) for deta
 
 ## 💬 Support
 
-- [Report Issues](info@notesqr.com)
-- [Feature Requests](info@notesqr.com)
 - Need help? Contact us at info@notesqr.com
 <p align="center"><img src="images/GpGLYbPWYAE5Rnv.png"/></p>
 
