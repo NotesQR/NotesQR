@@ -39,7 +39,7 @@ NotesQR is built with security and privacy as the foundation:
 - **Open Source**: Transparent security, verifiable by anyone
 - **2FA Protection**: Two-factor authentication required for access
 - **Self-Destructing Notes**: Optional auto-delete feature for sensitive information
-<p align="center">![Screenshot 3](images/GpGLOt6WcAAhTco.png)</p>
+<p align="center"><img src="images/GpGLOt6WcAAhTco.png"/></p>
 
 ## 🚀 Getting Started
 
