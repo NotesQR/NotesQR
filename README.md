@@ -1,6 +1,6 @@
 <p align="center"># NotesQR - End-to-End Encrypted Notes</p>
 
-<p align="center">![Screenshot 1](images/en.png)</p>
+<p align="center"><img src="images/en.png" width="500"/></p>
 
 ## About NotesQR
 
