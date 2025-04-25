@@ -26,7 +26,8 @@ Whether you're a journalist protecting sensitive sources, a healthcare professio
 - **Custom URLs**: Create memorable aliases for easy access
 - **Cross-Platform**: Works on all devices with a modern web browser
 - **Dark Mode**: Easy on the eyes with automatic theme switching
-<p align="center">![Screenshot 2](images/Go7M7rrXIAAL8UF.png)</p>
+
+<p align="center"><img src="images/Go7M7rrXIAAL8UF.jpeg" width="500"/></p>
 
 ## 🔐 **Secure, Private, Anonymous Note-Taking**
 
