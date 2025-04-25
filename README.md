@@ -1,5 +1,7 @@
 <p align="center"># NotesQR - End-to-End Encrypted Notes</p>
-![Screenshot 1](images/en.png)
+
+<p align="center">![Screenshot 1](images/en.png)</p>
+
 ## About NotesQR
 
 NotesQR represents a paradigm shift in secure note-taking and personal data management. In an era where digital privacy is increasingly compromised, NotesQR emerges as a fortress for your sensitive information, offering unparalleled security without sacrificing usability. Our platform is built on the fundamental belief that privacy is a basic human right, not a premium feature.
@@ -24,7 +26,7 @@ Whether you're a journalist protecting sensitive sources, a healthcare professio
 - **Custom URLs**: Create memorable aliases for easy access
 - **Cross-Platform**: Works on all devices with a modern web browser
 - **Dark Mode**: Easy on the eyes with automatic theme switching
-![Screenshot 2](images/Go7M7rrXIAAL8UF.png)
+<p align="center">![Screenshot 2](images/Go7M7rrXIAAL8UF.png)</p>
 
 ## 🔐 **Secure, Private, Anonymous Note-Taking**
 
@@ -36,7 +38,7 @@ NotesQR is built with security and privacy as the foundation:
 - **Open Source**: Transparent security, verifiable by anyone
 - **2FA Protection**: Two-factor authentication required for access
 - **Self-Destructing Notes**: Optional auto-delete feature for sensitive information
-![Screenshot 3](images/GpGLOt6WcAAhTco.png)
+<p align="center">![Screenshot 3](images/GpGLOt6WcAAhTco.png)</p>
 
 ## 🚀 Getting Started
 
@@ -45,7 +47,7 @@ NotesQR is built with security and privacy as the foundation:
 3. Set up 2FA with your preferred authenticator app
 4. Save your secure container URL
 5. Start creating encrypted notes!
-![Screenshot 4](images/GpGLGmGXMAAGbLM.png)
+<p align="center">![Screenshot 4](images/GpGLGmGXMAAGbLM.png)</p>
 
 ## 💡 Use Cases
 
@@ -65,7 +67,7 @@ NotesQR is built with security and privacy as the foundation:
 - **2FA**: TOTP (RFC 6238) compatible with standard authenticator apps
 - **Storage**: Data is encrypted at rest and in transit
 - **Authentication**: Zero-knowledge proof verification
-![Screenshot 5](images/GpGLLICXQAAKgFc.png)
+<p align="center">![Screenshot 5](images/GpGLLICXQAAKgFc.png)</p>
 
 ### Architecture
 
@@ -102,7 +104,7 @@ We welcome Feedback! See our [Contributing Guidelines](CONTRIBUTING.md) for deta
 - [Report Issues](info@notesqr.com)
 - [Feature Requests](info@notesqr.com)
 - Need help? Contact us at info@notesqr.com
-![Screenshot 6](images/GpGLYbPWYAE5Rnv.png)
+<p align="center">![Screenshot 6](images/GpGLYbPWYAE5Rnv.png)</p>
 
 ---
 
