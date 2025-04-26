@@ -1,7 +1,5 @@
 <p align="center"><img src="images/logo.png"/></p>
 
-<p align="center"><img src="images/en.png" width="500"/></p>
-
 Visit [NotesQR.com](https://notesqr.com)
 
 ## About NotesQR
