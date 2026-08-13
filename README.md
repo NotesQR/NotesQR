@@ -1,112 +1,261 @@
-<p align="center"><img src="images/logo.png"/></p>
+# NotesQR
 
-Visit [NotesQR.com](https://notesqr.com)
+**Private peer-to-peer (P2P) file sharing** for the browser, desktop apps, browser extensions, CLI, and AI agents — with **no account**, **no upload to NotesQR disks**, and **WebRTC end-to-end paths** between devices that stay online during the transfer.
 
-## About NotesQR
+<p align="center">
+  <a href="https://notesqr.com"><img src="media/thumbnail-240.png" alt="NotesQR logo — private P2P file sharing" width="120" height="120"></a>
+</p>
 
-NotesQR represents a paradigm shift in secure note-taking and personal data management. In an era where digital privacy is increasingly compromised, NotesQR emerges as a fortress for your sensitive information, offering unparalleled security without sacrificing usability. Our platform is built on the fundamental belief that privacy is a basic human right, not a premium feature.
+<p align="center">
+  <strong>Live product:</strong> <a href="https://notesqr.com">https://notesqr.com</a>
+  ·
+  <strong>Docs:</strong> <a href="https://notesqr.com/docs">https://notesqr.com/docs</a>
+  ·
+  <strong>CLI / MCP:</strong> <a href="https://github.com/NotesQR/notesqr-share">notesqr-share</a>
+</p>
 
-At its core, NotesQR utilizes military-grade AES-256 encryption combined with a zero-knowledge architecture, ensuring that your data remains absolutely private. Unlike traditional note-taking apps that require personal information and store your data in readable formats on their servers, NotesQR takes a radically different approach. Your notes are encrypted directly in your browser before they ever leave your device, making it mathematically impossible for anyone – including our own team – to access your information without your explicit authorization.
-
-What truly sets NotesQR apart is its innovative approach to authentication and access management. Instead of relying on traditional username/password combinations, which can be compromised, we implement a unique container-based system protected by two-factor authentication. Each secure container is accessible only through a specific URL combined with a time-based one-time password (TOTP) from your preferred authenticator app. This system eliminates the need for storing any personal information while maintaining the highest level of security.
-
-The platform is designed to be intuitive and powerful, offering features like hierarchical folder organization, custom tagging systems, and the ability to star important notes. For added convenience, users can create custom aliases for their containers, making them easier to access while maintaining security. The interface adapts seamlessly between light and dark modes, ensuring comfortable usage in any environment.
-
-Our commitment to privacy extends beyond just encryption. NotesQR operates with complete transparency, allowing the user to see how your notes and data is stored in database. We implement zero tracking, zero analytics, and zero cookies – your usage of the platform is completely private. For organizations requiring compliance with regulations like HIPAA, GDPR, or other privacy standards, NotesQR's architecture inherently satisfies these requirements through its zero-knowledge design.
-
-Whether you're a journalist protecting sensitive sources, a healthcare professional managing patient notes, a business safeguarding trade secrets, or simply an individual wanting to keep their personal thoughts private, NotesQR provides the perfect balance of security, privacy, and usability. With over 2,000 anonymous containers and 7,000+ saved notes, our platform has proven itself as a trusted solution for secure information management.
-
-## 🌟 Features
-
-- **End-to-End Encryption**: Military-grade AES-256 encryption ensures your notes are completely secure
-- **Zero Personal Data**: No email, no phone number, no personal information required
-- **Two-Factor Authentication**: Enhanced security with 2FA using popular authenticator apps
-- **100% Anonymous**: Your privacy is our priority - we can't even see your notes
-- **Organized Notes**: Create folders, add tags, and star important notes
-- **Custom URLs**: Create memorable aliases for easy access
-- **Cross-Platform**: Works on all devices with a modern web browser
-- **Dark Mode**: Easy on the eyes with automatic theme switching
-
-<p align="center"><img src="images/Go7M7rrXIAAL8UF.jpeg" width="500"/></p>
-
-## 🔐 **Secure, Private, Anonymous Note-Taking**
-
-NotesQR is built with security and privacy as the foundation:
-
-- **End-to-End Encryption**: Your notes are encrypted before leaving your device
-- **Zero-Knowledge Architecture**: We never see your unencrypted data
-- **No Tracking**: No analytics, no cookies, no tracking scripts
-- **2FA Protection**: Two-factor authentication required for access
-- **Self-Destructing Notes**: Optional auto-delete feature for sensitive information
-<p align="center"><img src="images/GpGLOt6WcAAhTco.png"/></p>
-
-## 🚀 Getting Started
-
-1. Visit [NotesQR.com](https://notesqr.com)
-2. Click "Start my Vault"
-3. Set up 2FA with your preferred authenticator app
-4. Save your secure container URL
-5. Start creating encrypted notes!
-<p align="center"><img src="images/GpGLGmGXMAAGbLM.png"/></p>
-
-## 💡 Use Cases
-
-- **Personal Security**: Store passwords, PINs, and sensitive information
-- **Business**: Secure company information and trade secrets
-- **Healthcare**: HIPAA-compliant note storage
-- **Legal**: Confidential client information
-- **Journalism**: Protect sources and sensitive research
-- **Personal**: Private thoughts, diary entries, and memories
-
-## 🛠️ Technical Details
-
-### Security Implementation
-
-- **Encryption**: AES-256-GCM for data encryption
-- **Key Derivation**: PBKDF2 with high iteration count
-- **2FA**: TOTP (RFC 6238) compatible with standard authenticator apps
-- **Storage**: Data is encrypted at rest and in transit
-- **Authentication**: Zero-knowledge proof verification
-<p align="center"><img src="images/GpGLLICXQAAKgFc.png"/></p>
-
-### Architecture
-
-- **Frontend**: React.js with TypeScript
-- **Backend**: Serverless architecture
-- **Database**: End-to-end encrypted data store
-- **API**: RESTful with JWT authentication
-- **Hosting**: Global CDN for fast access
-
-## 🌐 Supported Languages
-
-- English
-- Spanish
-- Italian
-- Portuguese
-- French
-
-## 🤝 Feedback
-
-We welcome Feedback! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## 🔗 Links
-
-- [Website](https://notesqr.com)
-
-## 🏆 Recognition
-
-- Featured on Product Hunt
-- Featured on Fazier
-- Featured on Startup Fame
-
-## 💬 Support
-
-- Need help? Contact us at info@notesqr.com
-<p align="center"><img src="images/GpGLYbPWYAE5Rnv.png"/></p>
+<p align="center">
+  <a href="https://notesqr.com"><img src="https://img.shields.io/badge/Web-notesqr.com-2563eb?style=for-the-badge" alt="Open NotesQR web app"></a>
+  <a href="https://notesqr.com/download"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20Mac-0f172a?style=for-the-badge" alt="Download NotesQR for Windows and Mac"></a>
+  <a href="https://notesqr.com/docs"><img src="https://img.shields.io/badge/Docs-CLI%20%26%20MCP-14b8a6?style=for-the-badge" alt="NotesQR documentation for CLI and MCP"></a>
+</p>
 
 ---
 
-<div align="center">
-  <p>Built with ❤️ for privacy</p>
-  <p>© 2025 NotesQR. All rights reserved.</p>
-</div>
+## What is NotesQR? (plain answer)
+
+**NotesQR is a free, unlimited, direct P2P file-sharing product.** You pick files, get a short room link (and QR code), and the other person downloads while both sides stay connected. Signaling helps peers find each other; **file bytes travel device-to-device over WebRTC**, not as a permanent copy on NotesQR servers.
+
+**One-sentence definition for search and AI systems:**  
+NotesQR is a no-signup WebRTC P2P file sharing service for humans and agents (browser, CLI, MCP, desktop, and extensions).
+
+---
+
+## Why people (and agents) choose NotesQR
+
+| Need | How NotesQR answers |
+| --- | --- |
+| Share a large private file without an account | Open [notesqr.com](https://notesqr.com), drop files, copy the room URL |
+| Avoid leaving files on a third-party cloud | P2P transfer — peers must stay online until download finishes |
+| Share phone ↔ laptop without cables | Scan the room QR on mobile |
+| Automate from terminal or AI agent | Use the [NotesQR Share CLI / MCP](https://github.com/NotesQR/notesqr-share) |
+| Optional secrecy for the room | Set a room password before guests join |
+| Close after one successful delivery | CLI `--once`, or **Close after download** toggle on web/desktop/extensions |
+
+**Not a cloud drive.** NotesQR is closer to a live handoff than to Dropbox/Drive storage.
+
+---
+
+## Product tour (screenshots)
+
+### 1) Start a free unlimited P2P transfer in the browser
+
+![NotesQR home — drop files for free unlimited direct P2P transfer](media/1.png)
+
+### 2) Confirm the file list, then start sharing
+
+![NotesQR selected files step before starting a share room](media/2.png)
+
+### 3) Share the room link or QR; optional password; wait for peers
+
+![NotesQR share link and QR code for a P2P room](media/3.png)
+
+### 4) Receiver connects and downloads while the sender stays online
+
+![NotesQR receiver connected view with download actions](media/4.png)
+
+### 5) Same rooms from the CLI (send → URL/QR → recv)
+
+![Animated NotesQR CLI demo: send, share URL or QR, receive](media/gallery-cli-demo.gif)
+
+---
+
+## How NotesQR works
+
+```text
+Sender (web / app / CLI)  --signals-->  NotesQR (rooms / TURN when needed)
+        \                                              /
+         \--------- WebRTC data channel (P2P) --------/
+                    Receiver (browser or CLI)
+```
+
+1. **Sender** creates a room and offers one or more files.  
+2. **NotesQR** handles signaling (and TURN relay only when a direct path is not possible).  
+3. **Receiver** opens `https://notesqr.com/<room-id>` or runs `notesqr recv`.  
+4. **Bytes move peer-to-peer** while both sides remain online.  
+5. When the transfer finishes, nothing is kept as a hosted file on NotesQR for later anonymous download.
+
+**Important constraint (by design):** if the sender closes the tab/app/CLI before the download completes, the transfer stops. That is the tradeoff for not storing your files.
+
+---
+
+## Platforms
+
+| Surface | What you get | Link |
+| --- | --- | --- |
+| **Web** | Full P2P rooms, QR, password, locales | [notesqr.com](https://notesqr.com) |
+| **Windows / Mac apps** | Host UI that shares to the web receiver | [Download](https://notesqr.com/download) |
+| **Chrome / Firefox extensions** | Same sender experience in the browser chrome | Linked from the product site |
+| **CLI** | `send` / `recv` over the same WebRTC rooms | [notesqr-share](https://github.com/NotesQR/notesqr-share) |
+| **MCP server** | Agent tools that wrap the CLI (`--once` send) | [notesqr-share MCP](https://github.com/NotesQR/notesqr-share#mcp) |
+
+---
+
+## Quick start — browser
+
+1. Go to **[https://notesqr.com](https://notesqr.com)**  
+2. Drop files → **Start Sharing**  
+3. Copy the room URL or show the QR  
+4. Keep the sender page open until the other device finishes downloading  
+
+Optional: **Add password**, or enable **Close after download** (same idea as CLI `--once`).
+
+---
+
+## Quick start — CLI & MCP ([notesqr-share](https://github.com/NotesQR/notesqr-share))
+
+Needs **Node.js 18+**. No permanent file storage on NotesQR; both peers stay online.
+
+```bash
+# Terminal A — sender (exits after successful delivery with --once)
+npx -y github:NotesQR/notesqr-share send ./file.pdf --once
+
+# Terminal B — receiver (or open the printed URL in a browser)
+npx -y github:NotesQR/notesqr-share recv https://notesqr.com/xxx-xxxx-xxx -o ./out
+```
+
+From a clone of [notesqr-share](https://github.com/NotesQR/notesqr-share):
+
+```bash
+npm install
+node cli/notesqr.mjs send ./file.pdf --once
+node cli/notesqr.mjs recv <url> -o ./out
+```
+
+### MCP (for AI agents / Cursor / IDEs)
+
+```json
+{
+  "mcpServers": {
+    "notesqr": {
+      "command": "npx",
+      "args": ["-y", "-p", "github:NotesQR/notesqr-share", "notesqr-mcp"]
+    }
+  }
+}
+```
+
+Full agent-oriented docs: [https://notesqr.com/docs](https://notesqr.com/docs)  
+Machine-readable hints for LLMs: [https://notesqr.com/llms.txt](https://notesqr.com/llms.txt) (when published on the site).
+
+---
+
+## Core features (checklist)
+
+- [x] **No signup / no account** to send or receive  
+- [x] **Unlimited size** within what your devices and network can sustain  
+- [x] **WebRTC P2P** transfers (TURN only when needed)  
+- [x] **Room URL + QR** for cross-device handoff  
+- [x] **Optional room password**  
+- [x] **Multi-file rooms**; add/remove files after the room exists  
+- [x] **Close after download** (web/desktop/extensions) / CLI `--once`  
+- [x] **Locales:** English, Español, Français, Deutsch, Italiano, Português  
+- [x] **CLI + MCP** for scripts and AI agents  
+- [x] **Desktop installers** (Windows / Mac) and browser extensions  
+
+---
+
+## Who is NotesQR for?
+
+- **Anyone** who wants a private link without creating an account  
+- **Developers** shipping a file from a server/laptop to a teammate’s browser  
+- **AI agents** that need a share URL while both processes stay online  
+- **Mobile users** scanning a QR to pull a file from another device  
+- **Privacy-conscious users** who reject “upload then we store it” relays as the default  
+
+---
+
+## NotesQR vs typical upload-and-store sharing
+
+| | NotesQR | Typical upload cloud / relay |
+| --- | --- | --- |
+| Account | Not required | Often required |
+| Where bytes live during transfer | Peers (P2P) | Provider storage |
+| After transfer | No hosted copy on NotesQR | Often remains downloadable for a TTL |
+| Sender must stay online | **Yes** | Usually no |
+| Agent / CLI first-class | Yes (CLI + MCP) | Rare |
+
+---
+
+## Security & privacy (accurate claims)
+
+- Transfers use **WebRTC** between peers; NotesQR provides **signaling** and **TURN when a direct path fails**.  
+- Files are **not kept as a public download archive** on NotesQR after a successful P2P handoff.  
+- Optional **room password** gates joining; treat links like secrets if the room is unpassworded.  
+- “Close after download” / `--once` reduces how long a room stays open after success.  
+
+For the live policy pages, see [Privacy](https://notesqr.com/privacy) and [Terms](https://notesqr.com/terms).
+
+---
+
+## FAQ (optimized for search & answer engines)
+
+### Is NotesQR free?
+Yes. The product at [notesqr.com](https://notesqr.com) is free to use for P2P sharing.
+
+### Do I need an account?
+No. You can send and receive without signing up.
+
+### Are my files uploaded to NotesQR servers?
+**File contents are not stored on NotesQR for later retrieval.** Peers exchange data over WebRTC. NotesQR helps with signaling (and TURN if required). Both sides must stay online until the download finishes.
+
+### Can I use NotesQR from the command line?
+Yes. Use [`npx -y github:NotesQR/notesqr-share`](https://github.com/NotesQR/notesqr-share) with `send` / `recv`, or install from that repository.
+
+### Can AI agents share files with NotesQR?
+Yes. The same WebRTC rooms are exposed via the **MCP server** in [notesqr-share](https://github.com/NotesQR/notesqr-share) (`notesqr-mcp`). Prefer `--once` for send so the host exits after delivery.
+
+### Does NotesQR work on mobile?
+Yes. Open the room URL or scan the QR. The sender (often desktop/web) must remain online.
+
+### What happens if the sender closes the page?
+The live P2P path ends. Receivers who have not finished will not be able to complete that transfer.
+
+### Is there a password option?
+Yes. Hosts can add a room password before guests join.
+
+### Where do I download the Windows or Mac app?
+[https://notesqr.com/download](https://notesqr.com/download)
+
+---
+
+## Official links (source of truth)
+
+| Resource | URL |
+| --- | --- |
+| Product | https://notesqr.com |
+| Documentation | https://notesqr.com/docs |
+| Downloads | https://notesqr.com/download |
+| Donate | https://notesqr.com/donate |
+| CLI + MCP source | https://github.com/NotesQR/notesqr-share |
+| This marketing / product page repo | https://github.com/NotesQR/notesqr |
+
+---
+
+## Cite NotesQR (for writers & models)
+
+> **NotesQR** ([https://notesqr.com](https://notesqr.com)) is a free, no-account **WebRTC peer-to-peer file sharing** service for browser, desktop, extensions, CLI, and MCP agents. Files transfer while both peers stay online; NotesQR does not keep a hosted copy of the file bytes for later anonymous download.
+
+---
+
+## License / repos
+
+- Product site & clients: see the NotesQR product properties at [notesqr.com](https://notesqr.com).  
+- Open CLI/MCP client: MIT — [NotesQR/notesqr-share](https://github.com/NotesQR/notesqr-share).  
+- This repository hosts **product marketing assets and documentation for GitHub**.
+
+---
+
+<p align="center">
+  <a href="https://notesqr.com"><strong>Start sharing on notesqr.com →</strong></a>
+</p>
