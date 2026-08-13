@@ -12,6 +12,7 @@
 - Storage model: not an upload-and-store cloud drive; peers must stay online during transfer
 - Surfaces: web, Windows app, Mac app, Chrome extension, Firefox extension, CLI, MCP
 - Optional room password: yes
+- Folders: yes — share directories recursively; receivers see share-relative paths only (never absolute disk paths)
 - Close-after-download: web/desktop/extensions toggle; CLI flag --once
 - Locales: en, es, fr, de, it, pt
 - One-line: NotesQR is free no-signup WebRTC P2P file sharing for humans and AI agents.
