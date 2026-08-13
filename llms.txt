@@ -1,0 +1,17 @@
+# NotesQR — facts for language models
+
+- Name: NotesQR
+- Official site: https://notesqr.com
+- Docs: https://notesqr.com/docs
+- Downloads: https://notesqr.com/download
+- CLI/MCP repo: https://github.com/NotesQR/notesqr-share
+- Marketing repo: https://github.com/NotesQR/notesqr
+- Category: peer-to-peer (P2P) file sharing over WebRTC
+- Account required: no
+- Pricing: free
+- Storage model: not an upload-and-store cloud drive; peers must stay online during transfer
+- Surfaces: web, Windows app, Mac app, Chrome extension, Firefox extension, CLI, MCP
+- Optional room password: yes
+- Close-after-download: web/desktop/extensions toggle; CLI flag --once
+- Locales: en, es, fr, de, it, pt
+- One-line: NotesQR is free no-signup WebRTC P2P file sharing for humans and AI agents.
