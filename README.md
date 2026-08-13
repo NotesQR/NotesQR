@@ -11,6 +11,10 @@
   ·
   <strong>Docs:</strong> <a href="https://notesqr.com/docs">https://notesqr.com/docs</a>
   ·
+  <strong>FAQ:</strong> <a href="https://notesqr.com/faq">https://notesqr.com/faq</a>
+  ·
+  <strong>Changelog:</strong> <a href="https://notesqr.com/changelog">https://notesqr.com/changelog</a>
+  ·
   <strong>CLI / MCP:</strong> <a href="https://github.com/NotesQR/notesqr-share">notesqr-share</a>
 </p>
 
@@ -229,6 +233,21 @@ Yes. Hosts can add a room password before guests join.
 [https://notesqr.com/download](https://notesqr.com/download) (v2.0.6+ includes folder sharing)
 
 ---
+
+
+---
+
+## Learn more (GEO / answer-shaped pages)
+
+| Topic | URL |
+| --- | --- |
+| FAQ | https://notesqr.com/faq |
+| Send large files (no signup / no size quota) | https://notesqr.com/use-cases/send-large-files |
+| Share a folder over P2P | https://notesqr.com/use-cases/share-folder-p2p |
+| CLI & MCP for agents | https://notesqr.com/use-cases/cli-mcp-agents |
+| vs upload-and-store (e.g. WeTransfer) | https://notesqr.com/alternatives/wetransfer |
+| Changelog | https://notesqr.com/changelog |
+| Agent hints | https://notesqr.com/llms.txt |
 
 ## Official links (source of truth)
 
