@@ -36,7 +36,7 @@ NotesQR is a no-signup WebRTC P2P file sharing service for humans and agents (br
 | Need | How NotesQR answers |
 | --- | --- |
 | Share a large private file without an account | Open [notesqr.com](https://notesqr.com), drop files, copy the room URL |
-| Share a whole project folder | Drop a folder on the web app, or `npx -y github:NotesQR/notesqr-share send ./dir/` — peers see relative paths only |
+| Share a whole project folder | Drop a folder, or **Browse → Folder** (web/desktop/extensions), or `npx -y github:NotesQR/notesqr-share send ./dir/` — peers see relative paths only |
 | Avoid leaving files on a third-party cloud | P2P transfer — peers must stay online until download finishes |
 | Share phone ↔ laptop without cables | Scan the room QR on mobile |
 | Automate from terminal or AI agent | Use the [NotesQR Share CLI / MCP](https://github.com/NotesQR/notesqr-share) |
@@ -226,7 +226,7 @@ The live P2P path ends. Receivers who have not finished will not be able to comp
 Yes. Hosts can add a room password before guests join.
 
 ### Where do I download the Windows or Mac app?
-[https://notesqr.com/download](https://notesqr.com/download)
+[https://notesqr.com/download](https://notesqr.com/download) (v2.0.6+ includes folder sharing)
 
 ---
 
