@@ -31,7 +31,7 @@ No signup. No size quota. Browser, desktop, extensions, CLI, and MCP. Both peers
 <p align="center"><em>NotesQR is donation-funded. If a transfer saved you time, <a href="https://notesqr.com/donate">support the project</a>.</em></p>
 
 <p align="center">
-  <img src="media/demo-web.gif" alt="NotesQR: drop a file, get a QR or link, recipient downloads over WebRTC P2P" width="800" height="608">
+  <img src="media/demo-web-20260818.gif" alt="NotesQR: drop a file, get a QR or link, recipient downloads over WebRTC P2P" width="800" height="608">
 </p>
 
 Drop a file → get a room link or QR → the other device downloads. Signaling helps peers find each other; **file bytes travel peer-to-peer**.
@@ -53,7 +53,7 @@ npx -y github:NotesQR/notesqr-share recv https://notesqr.com/xxx-xxxx-xxx -o ./o
 Folders work the same way (`send ./project/ --once`). MCP config and more commands: **[NotesQR/notesqr-share](https://github.com/NotesQR/notesqr-share)**.
 
 <p align="center">
-  <img src="media/gallery-cli-demo.gif" alt="NotesQR CLI: send, share URL or QR, receive" width="800">
+  <img src="media/cli-demo-20260818.gif" alt="NotesQR CLI: send, share URL or QR, receive" width="800">
 </p>
 
 ---
