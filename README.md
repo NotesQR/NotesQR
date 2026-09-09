@@ -58,6 +58,16 @@ Folders work the same way (`send ./project/ --once`). MCP config and more comman
 
 ---
 
+
+## Premium (optional)
+
+Exclusive custom room names (for example `https://notesqr.com/YourName`) while a subscription is active. Buy and manage on the web: [notesqr.com/premium](https://notesqr.com/premium) · [guide](https://notesqr.com/premium/info).
+
+- License files stay on the user’s device — NotesQR does **not** store `.nql` on servers.
+- Hosting a reserved name requires a valid license (claim token on signaling). Guests never need Premium.
+- **Mid-session file adds:** Premium private rooms can add files while the room stays open. Free/random rooms can remove files but must close and start a new share to add more.
+- CLI: `npx -y github:NotesQR/notesqr-share license import ./room.nql` then `send` (see [notesqr-share](https://github.com/NotesQR/notesqr-share)).
+
 ## Why not WeTransfer, Dropbox, or Google Drive?
 
 Factual split — they upload to provider storage so the receiver can fetch later. NotesQR does a live P2P handoff.
